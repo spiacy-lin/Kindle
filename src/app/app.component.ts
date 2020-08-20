@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { ProductService } from './product.service';
 
 @Component({
   selector: 'app-root',
   template:
-   `<h1>{{title}}</h1>
-   <products></products>`,
-  providers: [ProductService]
+   `
+   <rating></rating>
+   `
+  
 })
 export class AppComponent {
-  title = 'Moja pierwsza aplikacja Angular';
 }
