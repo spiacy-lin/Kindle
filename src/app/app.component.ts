@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template:
    `
-   <rating></rating>
+   <h1>Moja pierwsza aplikacja Angular</h1>
+   <products></products>
    `
-  
 })
 export class AppComponent {
 }
